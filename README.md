@@ -7,4 +7,4 @@ I am presently reading a book on python programming.  I created a simple game wh
 * MacOS
 
 ### Requirements:<br/>
-* Have python installed <a href="https://www.python.org/" target="_blank">Here</a>
+* Have python installed [Here](https://www.python.org/) (right for new tab)
