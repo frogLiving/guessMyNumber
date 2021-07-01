@@ -22,7 +22,8 @@ tries = int(0)
 print("Welcome to guess a random number.  \nThe number will be between 1 and 100.")
 
 while(exitGame != True):
-    guess = int(input("Please enter your guess: "))    
+    guess = int(input("Please enter your guess: "))
+    tries += 1 
     if guess == number:
         print(f"Congrats for guess the number {number}")
         print(f"It took you {tries} to win.")       
@@ -44,7 +45,5 @@ while(exitGame != True):
     
     else:
         print("Guess to high.")
-
-    tries += 1
 
 print("Thank you for playing...")
