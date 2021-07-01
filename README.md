@@ -9,6 +9,14 @@ I am presently reading a book on python programming.  I created a simple game wh
 ### Requirements:<br/>
 * Have python installed [Here](https://www.python.org/) (right for new tab)
 
+### Running the program
+1. Open a terminal(linux / Mac) or cmd(windows) prompt
+2. Optional - Move it to documents folder
+3. Navigate to the folder with the py script
+4. Type, "python guessNumberV2.py"
+5. Hit "Enter"
+6. Enjoy
+
 ### issues with the program as I see it
 * Hard to read in its present form
 * No input validation on, "Do you wish to play again"
