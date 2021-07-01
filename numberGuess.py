@@ -1,8 +1,8 @@
-#Guess my number between 1 & 100
+# Import modules for clearing screen
 from random import *
 from os import system, name
 
-# Clear screen function
+# Clear screen method
 def clearScreen():
     if name == 'nt':
         _ = system('cls')
@@ -14,13 +14,14 @@ def createNum():
     num = randint(1,101)
     return num
 
-#Enter your guess
+# Game initialization
 clearScreen()
 number = createNum()
 exitGame = False
 tries = int(0)
 print("Welcome to guess a random number.  \nThe number will be between 1 and 100.")
 
+# Game body
 while(exitGame != True):
     guess = int(input("Please enter your guess: "))
     tries += 1 
@@ -46,4 +47,5 @@ while(exitGame != True):
     else:
         print("Guess to high.")
 
+# Game exit
 print("Thank you for playing...")
