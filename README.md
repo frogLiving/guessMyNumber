@@ -8,3 +8,13 @@ I am presently reading a book on python programming.  I created a simple game wh
 
 ### Requirements:<br/>
 * Have python installed [Here](https://www.python.org/) (right for new tab)
+
+### issues with the program as I see it
+* Hard to read in its present form
+* No input validation on, "Do you wish to play again"
+* No input validation on "Guesses"
+* Entering a string or char will crash the program in guess input
+* Resetting the game needs to moved into a method
+* Hard to see entry point of the program
+* Fuctions declared over the main program (Hard to understand)
+* No scoring system
