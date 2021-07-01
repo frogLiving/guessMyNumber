@@ -7,7 +7,7 @@ I am presently reading a book on python programming.  I created a simple game wh
 * MacOS
 
 ### Requirements:<br/>
-* Have python installed [Here](https://www.python.org/) (right for new tab)
+* Have python installed [Here](https://www.python.org/) (right click to open in a new tab)
 
 ### Running the program
 1. Open a terminal(linux / Mac) or cmd(windows) prompt
